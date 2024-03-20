@@ -10,6 +10,10 @@ import (
 )
 
 func main()  {
+  organizeMovies()
+}
+
+func organizeMovies() {
   var path = ""
   
 
@@ -67,6 +71,16 @@ func main()  {
     fmt.Println(os.Environ())
     fmt.Println("The Drive is Not Mapped Here")
   }
+}
+
+func organizeTV() {
+
+
+}
+
+func organizeOther() {
+
+
 }
 
 func splitFolderFile(path string, file string) (string, string) {
